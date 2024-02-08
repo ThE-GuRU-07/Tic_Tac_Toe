@@ -1,0 +1,163 @@
+.animation_1{
+	background-image:url("x_cross.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100px;
+}
+.animation_2{
+	background-image:url("circle_green.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100px;
+}
+
+body
+{
+	text-align:center;
+	background-color:#034E65;
+	height:100%;
+}
+.btn_{
+	width:150px;
+	height:150px;
+	border-style:none;
+	border-width:5px;
+	border-color:black;
+	margin:5px;
+	background-color:#034E65;
+	
+
+}
+.btn_row_1{
+	margin-bottom:0px;
+}
+.btn_row_2{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.btn_row_3{
+	margin-top:0px;
+}
+
+h1{
+	margin:20px 0px 20px;
+	color:white;
+	font-family:'Montserrat', sans-serif;
+	font-size:5rem;
+	color:#E9E8E8;
+	font-weight:bold;
+	text-shadow:7px 0px 0px #000;
+	
+}
+h3{
+	display: inline-block;
+	margin:30px 50px 30px 25px;
+	color:white;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color:#E9E8E8;
+	margin-bottom:30px;
+}
+
+.h{
+	width:550px;
+	height:10px;
+	background-color:#E9E8E8;
+	z-index:2;
+	margin:0px;
+	position:relative;
+	left:500px;
+
+}
+.ha{
+	width:550px;
+	height:5px;
+	background-color:#E9E8E8;
+	z-index:2;
+	margin:0px;
+	position:relative;
+	left:500px;
+	display:none;
+	
+}
+.ha1{
+	display:block;
+	bottom:95px;
+	
+}
+.ha2{
+	display:block;
+	top:85px;
+}
+.ha3{
+	display:block;
+	top:260px;
+
+}
+.hav1{
+	display:block;
+	left:410px;
+	width:700px;
+	top:90px;
+	transform:rotate(45deg);
+}
+.hav2{
+	display:block;
+	left:480px;
+	transform:rotate(-45deg);
+	top:90px;
+	
+	
+}
+.pressed{
+	opacity:0.5;
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+}
+.row{
+	display:block;
+	margin:5px;
+}
+.row_1{
+	margin-top:10px;
+}
+.v{
+	height:530px;
+	background-color:#E9E8E8;
+	width:10px;
+	display:inline-block;
+	position:absolute;
+	top:230px;
+		
+}
+.va{
+	height:530px;
+	background-color:#E9E8E8;
+	width:5px;
+	display:inline-block;
+	position:absolute;
+	top:230px;
+	display:none;
+}
+
+.v1{
+	left:670px;
+
+}
+.v2{
+	right:670px;
+
+}
+
+.va1{
+	left:590px;
+	display:inline-block;
+}
+.va2{
+	display:inline-block;
+	left:756px;
+}
+.va3{
+	right:592px;
+	display:inline-block;
+}
+
+
